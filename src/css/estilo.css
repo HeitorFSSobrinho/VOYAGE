@@ -1,0 +1,62 @@
+body {
+    overflow: x;
+}
+
+.slogan {
+    margin-top: 150px;
+    font-size: 27px;
+    margin-left: 162px;
+    color: rgb(37, 15, 58);
+}
+
+.logo_v {
+    width: 120%;
+}
+
+.link_in {
+    margin-top: 120px;
+    font-size: 26px;
+}
+
+.logo_in {
+    width: 12%;
+}
+
+.logos {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    max-height: 30vh;
+    min-width: 100vh;
+    justify-content: center;
+    gap: 120px;
+    list-style-type: none;
+}
+
+.titulo {
+    position: relative;
+    top: 200px;
+    margin-left: 5px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.pacotes {
+    position: relative;
+    top: -320px;
+    margin-left: -41px;
+    display: flex;
+    flex-direction: row;
+    max-height: 20vh;
+    min-width: 100vh;
+    justify-content: center;
+    gap: 150px;
+    list-style-type: none;
+}
+
+.res {
+    display: none;
+}

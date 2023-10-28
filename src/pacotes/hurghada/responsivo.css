@@ -1,0 +1,234 @@
+@media (max-width: 1430px) {
+    .content {
+        height: 272px;
+        width: 406px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        transform: translate(-2%, -5%);
+    }
+    .bar {
+        width: 40px;
+        height: 20px;
+        border: 2px solid #fff;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .titulo1 {
+        margin-top: -420px;
+        margin-left: 80px;
+        position: absolute;
+        font-size: 40px;
+    }
+    .descricao {
+        display: none;
+    }
+    .descricao2 {
+        position: relative;
+        display: block;
+        margin-top: 480px;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .titulo2 {
+        margin-top: -570px;
+        margin-left: 680px;
+        position: absolute;
+        font-size: 40px;
+    }
+    .incluso {
+        margin-top: -470px;
+        margin-left: 450px;
+        position: absolute;
+    }
+    .titulo3 {
+        margin-top: -370px;
+        margin-left: 680px;
+        position: absolute;
+        font-size: 40px;
+    }
+    .aparte {
+        margin-top: -270px;
+        margin-left: 450px;
+        position: absolute;
+    }
+    .preco {
+        position: absolute;
+        margin-left: 580px;
+        margin-top: -180px;
+        font-size: 25px;
+    }
+    .link_g {
+        position: absolute;
+        margin-left: 640px;
+        margin-top: -135px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1105px) {
+    body {
+        overflow-y: scroll;
+    }
+    .content {
+        height: 272px;
+        width: 406px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 30%;
+        left: 8%;
+        transform: translate(-8%, -5%);
+    }
+    .bar {
+        width: 40px;
+        height: 20px;
+        border: 2px solid #fff;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .titulo1 {
+        margin-top: -420px;
+        margin-left: 120px;
+        position: absolute;
+        font-size: 40px;
+    }
+    .descricao {
+        display: none;
+    }
+    .descricao2 {
+        position: relative;
+        display: block;
+        margin-top: 480px;
+        margin-left: 55px;
+        font-size: 20px;
+    }
+    .titulo2 {
+        margin-top: 50px;
+        margin-left: 250px;
+        position: absolute;
+        font-size: 40px;
+    }
+    .incluso {
+        margin-top: 130px;
+        margin-left: 5px;
+        position: absolute;
+    }
+    .titulo3 {
+        margin-top: 210px;
+        margin-left: 250px;
+        position: absolute;
+        font-size: 40px;
+    }
+    .aparte {
+        margin-top: 290px;
+        margin-left: 5px;
+        position: absolute;
+    }
+    .preco {
+        position: absolute;
+        margin-left: 130px;
+        margin-top: 370px;
+        font-size: 25px;
+    }
+    .link_g {
+        position: absolute;
+        margin-left: 170px;
+        margin-top: 410px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 675px) {
+    body {
+        overflow-y: scroll;
+    }
+    .content {
+        height: 272px;
+        width: 406px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        transform: translate(-2%, -5%);
+    }
+    .bar {
+        width: 40px;
+        height: 20px;
+        border: 2px solid #fff;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .titulo1 {
+        margin-top: -420px;
+        margin-left: 90px;
+        position: absolute;
+        font-size: 40px;
+    }
+    .descricao {
+        display: none;
+    }
+    .descricao2 {
+        position: relative;
+        display: block;
+        margin-top: 500px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .titulo2 {
+        margin-top: 50px;
+        margin-left: 120px;
+        position: absolute;
+        font-size: 40px;
+    }
+    .incluso {
+        margin-top: 130px;
+        margin-left: 95px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo3 {
+        margin-top: 300px;
+        margin-left: 120px;
+        position: absolute;
+        font-size: 40px;
+    }
+    .aparte {
+        margin-top: 370px;
+        margin-left: 95px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    .preco {
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 560px;
+        font-size: 25px;
+    }
+    .link_g {
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 620px;
+        font-size: 25px;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        height: 160vh;
+        width: 100vw;
+        overflow: hidden;
+        background: linear-gradient(72deg, rgb(41, 21, 2) 1%, #c7b5b5 99%);
+        overflow-y: scroll;
+    }
+}

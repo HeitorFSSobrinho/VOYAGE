@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(72deg, rgb(41, 21, 2) 1%, #c7b5b5 99%);
+}
+
+.content {
+    height: 410px;
+    width: 610px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    transform: translate(-2%, -5%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 15px;
+    left: 17%;
+    transform: translate(17%);
+    display: flex;
+}
+
+.bar {
+    width: 60px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bar:hover {
+    background: #fff;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.slide {
+    width: 25%;
+    transition: .5s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -25%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -75%;
+}
+
+.titulo1 {
+    margin-top: 0;
+    margin-left: 1000px;
+    position: absolute;
+    font-size: 40px;
+}
+
+.descricao {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 23px;
+    font-size: 20px;
+}
+
+.descricao2 {
+    display: none;
+}
+
+.titulo2 {
+    position: absolute;
+    margin-left: 1065px;
+    margin-top: 140px;
+    font-size: 30px;
+}
+
+.incluso {
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 210px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.titulo3 {
+    position: absolute;
+    margin-left: 1060px;
+    margin-top: 320px;
+    font-size: 30px;
+}
+
+.aparte {
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 380px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.preco {
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 475px;
+    font-size: 25px;
+}
+
+.link_g {
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 555px;
+    font-size: 25px;
+}
+
+.logo_g {
+    width: 10%;
+}
